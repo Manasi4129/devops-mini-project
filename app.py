@@ -1,7 +1,7 @@
 def calculate_total(price, quantity):
     subtotal = price * quantity
     discount = subtotal * 0.10
-    return subtotal - discount
+    return subtotal + discount
 
 
 if __name__ == "__main__":
